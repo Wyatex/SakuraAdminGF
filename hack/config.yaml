@@ -1,0 +1,9 @@
+
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  gen:
+    dao:
+      link: "mysql:root:123456@tcp(127.0.0.1:3306)/sakuragf"
+      path: './internal/app/system'
+      tables: "casbin_rule, sys_auth, sys_config, sys_dept, sys_dict_data, sys_dict_type, sys_file, sys_op_log, sys_role, sys_user"
